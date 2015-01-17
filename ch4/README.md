@@ -1,5 +1,6 @@
 
-    $ gcc -g -Wall -Wextra *.c -o points
+    $ make clean 
+    $ make
 
     $ ./points p
     "." at 1, 2
