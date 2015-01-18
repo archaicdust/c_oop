@@ -1,0 +1,8 @@
+
+# C
+*.so
+*.o
+
+# vim ycm
+.ycm_extra_conf.py
+.ycm_extra_conf.pyc
