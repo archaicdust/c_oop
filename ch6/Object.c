@@ -86,6 +86,9 @@ static void * Class_ctor(void *_self, va_list *app)
             else if (selector == (voidf) puto)
             * (voidf *) & self->puto = method;
         }
+
+        va_end(ap); /* va_copy(ap, *app); */
+
         return self;
     }
 }
